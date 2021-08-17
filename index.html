@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <img src="imagess/logo.png" class="logo">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Offer</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="imagess/menu.png" class="menu">
+            <div class="text">
+                <h1>The purpose is to<br>teach, bring learning<br>to people</h1>
+                <p>There are many variations of passages available, but the majority have suffered alteration in some form by injected humor or randomised words which don't look even slightly beleivable.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <script>
+        var menu = document.querySelector(".menu");
+        var navbar = document.querySelector(".navbar");
+        navbar.style.right = "-200px";
+        menu.onclick = function(){
+            if(navbar.style.right == "-200px"){
+                navbar.style.right = "0";
+            }else{
+                navbar.style.right = "-200px";
+            }
+        }
+
+    </script>
